@@ -10,12 +10,12 @@
    <script type="text/javascript">
 
     function media(){
-      var nota1 = parseFloat(document.getElementById("nota1").value);
-	    var ball = 90;
-	    var nota2 = nota1/2;
-      var media = (nota1 + nota2)/ball ;
+        var nota1 = parseFloat(document.getElementById("nota1").value);
+	var ball = 90;
+	var nota2 = nota1/2;
+      	var media = (nota1 + nota2)/ball ;
 
-      alert("Média de balls do pokemon é de: "+media.toFixed(2));
+      alert("Média de balls do pokemon é de: "+Math.round(media));
 
     }
  </script>
