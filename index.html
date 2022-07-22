@@ -6,14 +6,87 @@
 	 <h1>VALOR CALCULADO EM ULTRA BALL</h1><br>
    Valor de venda do pokemon: <input id="nota1" type="text" size="10"> <br><br/>
    <button onclick="media()">Calcular Média</button>
+   Pokemons fora do sistema de catch:<br><br>
+   <table border="3px">
+      <tr>
+        <td><img src="imgs pokes\026-AlolanRaichu.png"></td>
+        <td><img src="imgs pokes\089-AlolanMuk.png"></td>
+        <td><img src="imgs pokes\106-HitmonleeNormal.png"></td>
+        <td><img src="imgs pokes\107-HitmonchanNormal.png"></td>
+        <td><img src="imgs pokes\113-Chansey.png"></td>
+        <td><img src="imgs pokes\115-Kangaskhan.png"></td>
+        <td><img src="imgs pokes\122-Mr.Mime.png"></td>
+        <td><img src="imgs pokes\123-Scyther.png"></td>
+        <td><img src="imgs pokes\133-Eevee.png"></td>
+        <td><img src="imgs pokes\134-Vaporeon.png"></td>
+        <td><img src="imgs pokes\135-Jolteon.png"></td>
+        <td><img src="imgs pokes\136-Flareon.png"></td>
+        <td><img src="imgs pokes\137-Porygon.png"></td>
+        <td><img src="imgs pokes\185-Sudowoodo.png"></td>
+        <td><img src="imgs pokes\196-Espeon.png"></td>
+        <td><img src="imgs pokes\197-Umbreon.png"></td>
+        <td><img src="imgs pokes\199-Slowking.png"></td>
+        <td><img src="imgs pokes\200-Misdreavus.png"></td>
+        <td><img src="imgs pokes\201-Unown.png"></td>
+        <td><img src="imgs pokes\202-Wobbuffet.png"></td>
+        <td><img src="imgs pokes\Scizor.png"></td>
+      </tr><br>
+      <tr>
+        <td><img src="imgs pokes\233-Porygon2.png"></td>
+        <td><img src="imgs pokes\235-Smeargle.png"></td>
+        <td><img src="imgs pokes\236-Tyrogue.png"></td>
+        <td><img src="imgs pokes\237-HitmontopNormal.png"></td>
+        <td><img src="imgs pokes\280-Ralts.png"></td>
+        <td><img src="imgs pokes\281-Kirlia.png"></td>
+        <td><img src="imgs pokes\282-Gardevoir.png"></td>
+        <td><img src="imgs pokes\291-Ninjask.png"></td>
+        <td><img src="imgs pokes\296-Makuhita.png"></td>
+        <td><img src="imgs pokes\297-Hariyama.png"></td>
+        <td><img src="imgs pokes\315-Roselia.png"></td>
+        <td><img src="imgs pokes\324-Torkoal.png"></td>
+        <td><img src="imgs pokes\351-Castform.png"></td>
+        <td><img src="imgs pokes\357-Tropius.png"></td>
+        <td><img src="imgs pokes\359-Absol.png"></td>
+        <td><img src="imgs pokes\360-Wynaut.png"></td>
+        <td><img src="imgs pokes\389-Torterra.png"></td>
+        <td><img src="imgs pokes\392-Infernape.png"></td>
+        <td><img src="imgs pokes\395-Empoleon.png"></td>
+        <td><img src="imgs pokes\405-Luxray.png"></td>
+        <td><img src="imgs pokes\409-Rampardos.png"></td>
+      </tr><br>
+      <tr>
+        <td><img src="imgs pokes\413-Wormadam.png"></td>
+        <td><img src="imgs pokes\413-WormadamGround.png"></td>
+        <td><img src="imgs pokes\413-WormadamSteel.png"></td>
+        <td><img src="imgs pokes\430-Honchkrow.png"></td>
+        <td><img src="imgs pokes\445-Garchomp.png"></td>
+        <td><img src="imgs pokes\459-Snover.png"></td>
+        <td><img src="imgs pokes\460-Abomasnow.png"></td>
+        <td><img src="imgs pokes\461.png"></td>
+        <td><img src="imgs pokes\462-Magnezone.png"></td>
+        <td><img src="imgs pokes\468-Togekiss.png"></td>
+        <td><img src="imgs pokes\470-Leafeon.png"></td>
+        <td><img src="imgs pokes\471-Glaceon.png"></td>
+        <td><img src="imgs pokes\475-Gallade.png"></td>
+        <td><img src="imgs pokes\479-Rotom.png"></td>
+        <td><img src="imgs pokes\534-Conkeldurr.png"></td>
+        <td><img src="imgs pokes\563.png"></td>
+        <td><img src="imgs pokes\570.png"></td>
+        <td><img src="imgs pokes\601.png"></td>
+        <td><img src="imgs pokes\668-Pyroar_Female.png"></td>
+        <td><img src="imgs pokes\668-PyroarMale.png"></td>
+        <td><img src="imgs pokes\673.png"></td>
+        <td><img src="imgs pokes\700-Sylveon.png"></td>
+      </tr>
+    </table><br><br>
 
    <script type="text/javascript">
 
     function media(){
-        var nota1 = parseFloat(document.getElementById("nota1").value);
-	var ball = 90;
-	var nota2 = nota1/2;
-      	var media = (nota1 + nota2)/ball ;
+      var nota1 = parseFloat(document.getElementById("nota1").value);
+	    var ball = 90;
+	    var nota2 = nota1/2;
+      var media = (nota1 + nota2)/ball ;
 
       alert("Média de balls do pokemon é de: "+Math.round(media));
 
