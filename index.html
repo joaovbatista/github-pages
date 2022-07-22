@@ -3,20 +3,19 @@
  <head>
    <title>Media PxG</title>
    <!-- Valor de venda da ball: <input id="ball" type="text" size="5"> <br><br/> -->
-   Valor de venda do pokemon: <input id="nota1" type="text" size="10"> <br>
 	 <h1>VALOR CALCULADO EM ULTRA BALL</h1><br>
+   Valor de venda do pokemon: <input id="nota1" type="text" size="10"> <br><br/>
    <button onclick="media()">Calcular Média</button>
 
    <script type="text/javascript">
 
     function media(){
-     var nota1 = parseFloat(document.getElementById("nota1").value);
-	 var ball = parseFloat(document.getElementById("ball").value);
-	 var nota2 = nota1/2;
-     /*var media = (nota1 + nota2)/ball ;*/
-	    var media = (nota1 + nota2)/'90';
+      var nota1 = parseFloat(document.getElementById("nota1").value);
+	    var ball = 90;
+	    var nota2 = nota1/2;
+      var media = (nota1 + nota2)/ball ;
 
-     alert("Média de balls do pokemon é de: "+media);
+      alert("Média de balls do pokemon é de: "+media);
 
     }
  </script>
