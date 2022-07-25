@@ -39,7 +39,7 @@ p{
     width: 200px;
     transition: background .3s;
     position:absolute; 
-    top: 25%;
+    top: 17%;
     left:50%;
     transform: translate(-50%, -50%);
 }
