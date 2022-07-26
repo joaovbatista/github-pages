@@ -1,4 +1,13 @@
-/*@import url('http://fonts.cdnfonts.com/css/pokemon-solid');*/
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@font-face {/*font pokemon*/
+            font-family: "Pokemon"; 
+            src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); 
+            src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); 
+}
 
 
 
@@ -24,14 +33,14 @@ h1{
     -webkit-text-stroke-color: #000;
     color: white;
     text-align: center;
-    font-family: "Pokemon Solid";
+    font-family: Pokemon;
     
 }
 p{
     text-align: center;
 }
 .button{
-    font-family: 'Pokemon Solid', sans-serif;
+    font-family: Pokemon;
     font-size: 150%;
     vertical-align: middle;
     border: none;
@@ -40,7 +49,7 @@ p{
     width: 200px;
     transition: background .3s;
     position:absolute; 
-    top: 20%;
+    top: 22.5%;
     left:50%;
     transform: translate(-50%, -50%);
 }
