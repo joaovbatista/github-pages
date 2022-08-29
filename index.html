@@ -16,10 +16,12 @@
     function media(){
       var nota1 = parseFloat(document.getElementById("nota1").value);
 	    var ball = 90;
+	    var engball = 128;
 	    var nota2 = nota1/2;
       var media = (nota1 + nota2)/ball ;
+      var engmedia = (nota1 + nota2)/engball ;
 
-      alert("Média de balls do pokemon é de: "+Math.round(media));
+      alert("Média de uballs do pokemon é de: "+Math.round(media)+". E média de balls de engenheiro é de: "+Math.round(engmedia));
     }
     </script>
    <p>Pokemons fora do sistema de catch:</p>
